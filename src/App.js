@@ -14,7 +14,7 @@ function App() {
           ></img>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="hello" />
         </main>
         <footer className="App-footer">
           This project is coded by{' '}

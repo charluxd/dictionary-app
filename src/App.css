@@ -1,3 +1,27 @@
+body {
+  font-family: 'Inter', sans-serif;
+  color: #010e18;
+  background: #f6f6f9;
+}
+
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 40px;
+  font-weight: 600;
+  color: #032a49;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+h2 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 28px;
+  font-weight: 600;
+  color: #4d577a;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
 .App-header {
   margin: 40px auto;
   max-width: 880px;
@@ -9,6 +33,13 @@
 }
 
 .App-footer {
+  color: #616e9a;
+  font-size: 14px;
   text-align: center;
   margin: 40px 0;
+}
+
+.App-footer a {
+  color: #4d577a;
+  font-weight: 600;
 }
