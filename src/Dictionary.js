@@ -8,9 +8,6 @@ function Dictionary() {
   let [results, setResults] = useState(null);
 
   function handleResponse(response) {
-    console.log(response.data[0]);
-    console.log(response.data[0].meanings[0].definitions[0].definition);
-
     setResults(response.data[0]);
   }
 
