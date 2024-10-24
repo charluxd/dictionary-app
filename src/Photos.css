@@ -1,0 +1,9 @@
+div.col-4 {
+  padding: 0 12px;
+}
+
+.Photos img {
+  border-radius: 8px;
+  margin: 12px 0;
+  padding: 0;
+}
